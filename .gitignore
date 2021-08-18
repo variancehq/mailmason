@@ -2,8 +2,8 @@
 .idea
 .ftppass
 .ruby-version
+dist
 node_modules
 npm-debug.log
-config.json
 config.pm.json
 secrets.json
