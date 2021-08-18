@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  mailmason:
+    build: ./
+    tty: true
+    ports:
+      - "3000:3000"
+    command: npm start
+    volumes:
+      - .:/mailmason:delegated
