@@ -1,11 +1,11 @@
-@import 'scss/imports';
+@import "scss/imports";
 
 // --------------------------------
 // Layout specific styles
 // --------------------------------
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   color: #333;
 }
 p {
@@ -17,7 +17,6 @@ p {
 .email-content {
   @include table-scale();
 }
-
 
 /* Masthead ----------------------- */
 
@@ -33,10 +32,9 @@ p {
     font-weight: bold;
     color: $c-slate-200;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,1);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
   }
 }
-
 
 /* Body ------------------------------ */
 
@@ -70,7 +68,6 @@ p {
   padding: 35px;
 }
 
-
 /*Media Queries ------------------------------ */
 
 @media only screen and (max-width: 600px) {
@@ -83,7 +80,7 @@ p {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $c-gray-900 !important;
-    color: #FFF !important;
+    color: #fff !important;
   }
   p,
   ul,
@@ -94,7 +91,7 @@ p {
   h3,
   span,
   .purchase_item {
-    color: #FFF !important;
+    color: #fff !important;
   }
 
   .attributes_content,

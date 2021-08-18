@@ -1,4 +1,4 @@
-@import 'scss/imports';
+@import "scss/imports";
 
 // --------------------------------
 // Layout specific styles
@@ -23,7 +23,6 @@ p.sub {
   @include table-scale();
 }
 
-
 /* Masthead ----------------------- */
 
 .email-masthead {
@@ -38,20 +37,19 @@ p.sub {
     font-weight: bold;
     color: $c-slate-200;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,1);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
   }
 }
-
 
 /* Body ------------------------------ */
 
 .email-body {
   @include table-scale();
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   &_inner {
     @include table-scale($width: 570px, $margin: 0 auto);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 }
 
@@ -77,7 +75,6 @@ p.sub {
   padding: 35px;
 }
 
-
 /*Media Queries ------------------------------ */
 
 @media only screen and (max-width: 600px) {
@@ -96,7 +93,7 @@ p.sub {
   .email-masthead,
   .email-footer {
     background-color: $c-gray-900 !important;
-    color: #FFF !important;
+    color: #fff !important;
   }
   p,
   ul,
@@ -107,7 +104,7 @@ p.sub {
   h3,
   span,
   .purchase_item {
-    color: #FFF !important;
+    color: #fff !important;
   }
 
   .attributes_content,

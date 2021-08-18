@@ -38,6 +38,7 @@
     "load-grunt-tasks": "^5.0.0",
     "node-sass": "^4.12.0",
     "postmark-cli": "^1.1.1",
+    "prettier": "^2.3.2",
     "time-grunt": "^2.0.0"
   }
 }
