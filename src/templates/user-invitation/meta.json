@@ -1,6 +1,6 @@
 {
   "Name": "User Invitation",
-  "Alias": "user-invitation",
+  "Alias": "invite-user",
   "Subject": "You have been invited to join {{organization_name}} on Variance",
   "TemplateType": "Standard",
   "LayoutTemplate": "basic"
