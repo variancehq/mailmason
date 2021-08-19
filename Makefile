@@ -7,6 +7,9 @@ install:
 build:
 	docker compose run --rm mailmason npx grunt
 
+deploy:
+	docker compose run --rm mailmason npm run deploy
+
 shell:
 	docker compose run --rm mailmason /bin/bash
 
