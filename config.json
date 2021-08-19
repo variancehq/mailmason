@@ -1,0 +1,47 @@
+{
+  "postmark": {
+    "from": "guillaume@variance.com",
+    "to": "guillaume@variance.com",
+    "subject": "Test Email"
+  },
+  "strings": {
+    "sender_name": "[Jane from Acme]",
+    "product_name": "Variance",
+    "product_url": "https://app.variance.com",
+    "credit_card_statement_name": "",
+    "formal_company_name": "Variance Inc",
+    "address_line_1": "PO Box 4668",
+    "address_line_2": "PMB 66839",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "phone": "",
+    "litmus_email": "something@litmus.com"
+  },
+  "images": {
+    "use_images": true,
+    "images_url": "https://app.variance.com/static/email/",
+    "logo_file": "logo.png",
+    "logo_width": "150",
+    "use_social_circles": false,
+    "twitter_url": "",
+    "facebook_url": "",
+    "pinterest_url": "",
+    "instagram_url": "",
+    "google_plus_url": "",
+    "youtube_url": "",
+    "linkedin_url": "",
+    "dribbble_url": ""
+  },
+  "ftp": {
+    "host": "12.34.56.79",
+    "port": "21",
+    "src": "src/images",
+    "dest": "/example/images"
+  },
+  "s3": {
+    "bucket": "",
+    "region": "",
+    "overwrite": true
+  }
+}

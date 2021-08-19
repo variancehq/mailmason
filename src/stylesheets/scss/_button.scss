@@ -3,7 +3,7 @@
 $b-v-padding: 10px;
 $b-h-padding: 18px;
 
-@mixin button-fill($bg: $c-blue) {
+@mixin button-fill($bg: $c-gold) {
   background-color: $bg;
   border-top: $b-v-padding solid $bg;
   border-right: $b-h-padding solid $bg;
@@ -15,19 +15,12 @@ $b-h-padding: 18px;
   @include button-fill();
 
   display: inline-block;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  font-weight: bold;
+  border-radius: 6px;
   -webkit-text-size-adjust: none;
   box-sizing: border-box;
-
-  &--green {
-    @include button-fill($c-green);
-  }
-  &--red {
-    @include button-fill($c-red);
-  }
 }
 
 @media only screen and (max-width: 500px) {

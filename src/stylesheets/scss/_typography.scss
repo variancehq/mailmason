@@ -1,9 +1,22 @@
 /* Type ------------------------------ */
 
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap");
+@font-face {
+  font-display: swap;
+  font-family: "BentonSans";
+  font-weight: normal;
+  src: url("https://app.variance.com/static/email/BentonSansRegular.otf")
+    format("opentype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "BentonSans";
+  font-weight: bold;
+  src: url("https://app.variance.com/static/email/BentonSansBold.otf")
+    format("opentype");
+}
 
-$f-stack: "Nunito Sans", Helvetica, Arial, sans-serif;
-$f-base-size: 16px;
+$f-stack: BentonSans, Arial;
+$f-base-size: 14px;
 
 body,
 td,
@@ -33,5 +46,5 @@ blockquote {
   line-height: 1.625;
 }
 p.sub {
-  font-size: 13px;
+  font-size: 12px;
 }

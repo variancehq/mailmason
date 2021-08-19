@@ -1,7 +1,7 @@
 {
   "Name": "User Invitation",
   "Alias": "user-invitation",
-  "Subject": "{{ invite_sender_name }} invited you to {{ product_name }}",
+  "Subject": "You have been invited to join {{organization_name}} on Variance",
   "TemplateType": "Standard",
   "LayoutTemplate": "basic"
 }

@@ -41,8 +41,6 @@ preheader: "This is example text for the preheader set via the YAML front-matter
 <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
   <tr>
     <td align="center">
-      {{> button color="red" label="Danger Button" target_url="http://example.com" }}<br>
-      {{> button color="green" label="Success button" target_url="http://example.com" }}<br>
       {{> button label="Default button" target_url="http://example.com" }}
     </td>
   </tr>
@@ -106,12 +104,4 @@ preheader: "This is example text for the preheader set via the YAML front-matter
 <h1>Sub-text</h1>
 <p>Sub-text is for any content that needs to be included at the bottom of the email but doesn't need to stand out. This can be good for disclaimers and text alternatives.</p>
 <!-- Sub copy -->
-<table class="body-sub" role="presentation">
-  <tr>
-    <td>
-      <p class="sub">If you’re having trouble clicking the confirm account button, copy and paste the URL below into your web browser.
-      </p>
-      <p class="sub"><a href="\{{action_url}}">\{{action_url}}</a></p>
-    </td>
-  </tr>
-</table>
+{{> button_trouble var="{{action_url}}"}}
