@@ -20,7 +20,7 @@
   },
   "images": {
     "use_images": true,
-    "images_url": "https://app.variance.com/static/email/",
+    "images_url": "https://storage.googleapis.com/variance-app-prod-email/",
     "logo_file": "logo.png",
     "logo_width": "150",
     "use_social_circles": false,
