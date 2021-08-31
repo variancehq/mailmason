@@ -46,6 +46,7 @@ p {
   &_inner {
     @include table-scale($width: 570px, $margin: 0 auto);
     background-color: #ffffff;
+    border-radius: 4px;
   }
 }
 
@@ -77,6 +78,9 @@ p {
   .email-body_inner,
   .email-footer {
     width: 100% !important;
+  }
+  .email-body_inner {
+    border-radius: 0 !important;
   }
 }
 
