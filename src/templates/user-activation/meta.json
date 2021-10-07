@@ -1,0 +1,7 @@
+{
+  "Name": "User Activation",
+  "Alias": "user-activation",
+  "Subject": "Welcome to Variance",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}

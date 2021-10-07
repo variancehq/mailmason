@@ -1,0 +1,19 @@
+---
+layout: basic/content.hbs
+---
+<h1>Hi ${f:escapeHtml(user.firstName)},</h1>
+<p>You recently requested to create a new {{product_name}} account. Use the button below to activate it and create a password. <strong>This activation link is only valid for the next ${f:formatTimeDiffHoursNowInUserLocale(org.activationTokenExpirationHours)}.</strong></p>
+
+<!-- Action -->
+<table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+  <tr>
+    <td align="center">
+      {{> button label="Activate your account" target_url="${activationLink}?fromURI=https%3A%2F%2Fapp.variance.com%2Fsignup%2Fw_redirect" }}
+    </td>
+  </tr>
+</table>
+
+<p>Welcome aboard,<br>The {{product_name}} Team</p>
+<p><strong>P.S.</strong> Need help getting started? Check out our <a href="https://www.variance.com/docs">help documentation</a>.</p>
+
+{{> button_trouble var="${activationLink}?fromURI=https%3A%2F%2Fapp.variance.com%2Fsignup%2Fw_redirect" }}
