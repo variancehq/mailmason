@@ -1,12 +1,12 @@
 FROM ubuntu:latest
 
-RUN apt-get update \ 
-    && apt-get install -y curl ruby \
-    && curl -fsSL https://deb.nodesource.com/setup_10.x | bash - \
-    && apt-get install -y nodejs \
+RUN apt update \ 
+    && apt install -y curl ruby build-essential \
+    && curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
+    && apt install -y nodejs \
     && rm -rf /var/lib/apt/lists/* \
-    && apt-get autoremove -y \
-    && apt-get clean
+    && apt autoremove -y \
+    && apt clean
 
 RUN gem install premailer \
     && gem install nokogiri
