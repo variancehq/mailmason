@@ -1,0 +1,7 @@
+{
+  "Name": "CSV Export Error",
+  "Alias": "csv-export-error",
+  "Subject": "Error exporting your Variance {{entity_type}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}

@@ -1,0 +1,7 @@
+{
+  "Name": "CSV Export Success",
+  "Alias": "csv-export-success",
+  "Subject": "Your Variance {{entity_type}} data is attached",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}
