@@ -1,0 +1,7 @@
+{
+  "Name": "Reconnection Connection",
+  "Alias": "reconnect-connection",
+  "Subject": "{{integration_name}} connection on Variance",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}
