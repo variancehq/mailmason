@@ -1,0 +1,7 @@
+{
+  "Name": "Shutdown Notice",
+  "Alias": "shutdown-notice",
+  "Subject": "Your Variance account will be deleted in {{days_until_deletion}} days",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}

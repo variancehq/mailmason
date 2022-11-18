@@ -1,0 +1,7 @@
+{
+  "Name": "Nonpayment Notice",
+  "Alias": "nonpayment-notice",
+  "Subject": "Your Variance subscription has expired",
+  "TemplateType": "Standard",
+  "LayoutTemplate": "basic"
+}
