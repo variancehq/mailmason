@@ -7,9 +7,9 @@ layout: basic/content.hbs
 <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
   <tr>
     <td align="center">
-      {{> button label="View plans" target_url="${plans_url}" }}
+      {{> button label="View plans" target_url="{{plans_url}}" }}
     </td>
   </tr>
 </table>
 
-{{> button_trouble var="${plans_url}" }}
+{{> button_trouble var="{{plans_url}}" }}
